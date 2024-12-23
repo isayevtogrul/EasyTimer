@@ -1,9 +1,8 @@
 let hours = parseInt(prompt("Saatı daxil edin") || 0);
-let minutes = parseInt(prompt("Dəqiqəni daxil edin") || 0);
-let seconds = parseInt(prompt("Saniyəni daxil edin") || 0);
+let minutes = parseInt(prompt("Deqiqeni daxil edin") || 0);
+let seconds = parseInt(prompt("Saniyeni daxil edin") || 0);
 let interval;
 
-// Ekrandakı rəqəmləri yeniləmək üçün funksiya
 function updateDisplay() {
     document.querySelector('#hours').textContent = padNumber(hours);
     document.querySelector('#minutes').textContent = padNumber(minutes);
